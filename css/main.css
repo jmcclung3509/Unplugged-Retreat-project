@@ -113,10 +113,15 @@ margin: 0;
 .header-divider {
   width: 100%;
   padding:15px 0;
+  height: 1px;
 }
 
 header nav  {
-  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
@@ -124,7 +129,9 @@ header nav ul {
   justify-content: space-around;
   margin: 0;
   padding:0;
+  width: 100%;
 }
+
 header ul li{
   padding: 15px 30px; 
   list-style: none;
@@ -132,44 +139,10 @@ header ul li{
 }
 
 
-/*MAIN*/
-.hero-image h1 {
-  padding: 50px 40px 0 20px;
-  margin: 0;
-}
-
-.features article {
-  width: 60%;
-}
-.features h1 {
-  padding: 50px 15px;
-  margin: 0;
-}
-.features p{
-  margin: 0;
-  padding: 25px 0;
-}
-
-.reviews h2 {
-  padding: 50px 15px 30px 25px;
-}
-.reviews article{
-  padding: 25px 15px;
-}
-
-/*ASIDE*/
-aside .content-wrapper {
-  padding: 25px 15px;
-}
-.newsletter-content {
-  padding: 15px 0;
-}
-
-.newsletter-form input {
-  margin: 10px 5px;
-  padding: 5px 5px;
-}
 /*FOOTER*/
+footer {
+  flex-direction: column;
+}
 
 footer .social-icons {
   display:flex;
@@ -193,19 +166,24 @@ footer .content-wrapper {
 footer p {
   margin: 0;
 }
-
+footer .copyright {
+  padding: 10px 0;
+}
 /*--------------Mobile Styles - Homepage-----------*/
 
 /*MAIN*/
 
+/*HERO IMAGE*/
 
 .hero-image {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-
 }
-
+.hero-image h1 {
+  padding: 50px 40px 0 20px;
+  margin: 0;
+}
 
 /*ASIDE*/
 
@@ -214,8 +192,17 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+aside .content-wrapper {
+  padding: 25px 15px;
+}
+.newsletter-content {
+  padding: 15px 0;
+}
 
-
+.newsletter-form input {
+  margin: 10px 5px;
+  padding: 5px 5px;
 }
 
 /*FEATURES*/
@@ -224,7 +211,6 @@ aside {
 display: flex;
 justify-content: center;
 flex-flow: row wrap;
-
 }
 
 .features .feature-items {
@@ -234,6 +220,17 @@ align-items: center;
 flex-flow: row wrap;
 }
 
+.features article {
+  width: 60%;
+}
+.features h1 {
+  padding: 50px 15px 25px 35px;
+  margin: 0;
+}
+.features p{
+  margin: 0;
+  padding: 25px 0;
+}
 
 
 /*REVIEWS*/
@@ -244,6 +241,17 @@ flex-flow: row wrap;
   flex-flow: row wrap;
 
 }
+.reviews h2 {
+  padding: 50px 15px 40px 25px;
+}
+.reviews article{
+  padding: 25px 15px;
+}
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
 
 /*----------------------About Page------------*/
 
