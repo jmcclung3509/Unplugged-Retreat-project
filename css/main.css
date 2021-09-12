@@ -120,6 +120,7 @@ header nav {
 width: 100%;
 height: 1px;
 }
+
  header nav ul {
    list-style: none;
    width: 100%;
@@ -151,7 +152,7 @@ footer h4 {
  }
 footer .social-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
 }
@@ -370,31 +371,34 @@ flex-flow: row wrap;
 
   /*General Styles*/
   .content-wrapper {
-    max-width: 640px;
+    max-width: 650px;
     margin: 100px 0;
   }
 
 
   /*HEADER*/
   header {
-    display: flex;
-    justify-content: center;
-    
+    justify-content: space-around; 
   }
 
   header .content-wrapper {
     width: 100%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+   justify-content: space-between;
+   margin: 30px 0;
+   align-items: center;
+  }
+
+  header nav {
+    width: 20%;
   }
 
   header nav ul {
-    width: 20%;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 
+  .header-divider {
+    display: none;
+  }
   /* ASIDE*/
 
   aside .content-wrapper {
@@ -417,10 +421,12 @@ flex-flow: row wrap;
     align-items: center;
     flex-flow: column wrap;
     flex-basis: 50%;
+    text-align: center;
   
   }
   .features .features-item-description {
     width: 50%;
+    
    
   }
 
@@ -431,16 +437,25 @@ flex-flow: row wrap;
     justify-content: space-between;
     padding: 0
   }
-  .reviews .review-content {
+  .reviews article div {
     width: 49%;
   }
 
   /*FOOTER*/
+  footer .content-wrapper {
+    width: 67%;
+    margin: 100px 0;
+ 
+
+  }
   .footer-content{
-    width: 22%;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  footer .contact {
+    margin-bottom: 0;
   }
   .copyright {
     width: 100%;
