@@ -435,17 +435,15 @@ flex-flow: row wrap;
   }
   .features .features-item-description {
     width: 50%;
-    
-   
   }
 
   /*REVIEWS*/
   .reviews article {
-   
     display: flex;
     justify-content: space-between;
     padding: 0
   }
+
   .reviews article div {
     width: 49%;
   }
@@ -490,7 +488,8 @@ flex-flow: row wrap;
   .mission-content p {
   width: 47%;
   }
-  .mission-content h2 }
+
+  .mission-content h2 {
     margin: 40px 0 40px 0;
 }
 
@@ -498,7 +497,6 @@ flex-flow: row wrap;
 
 .contact-section h2 {
   width 80%;
-
 }
 
 .contact-content {
@@ -511,7 +509,6 @@ flex-flow: row wrap;
 }
 
 
-footer
 /*FOOTER*/
 
 .footer-content{
@@ -537,6 +534,7 @@ footer {
 .faq .content-wrapper {
   justify-content: space-between;
 }
+
 }
 
 
@@ -545,6 +543,34 @@ footer {
 @media only screen and (min-width: 1200px) {
   /*--------Desktop styles here---------*/
 
+  /*GENERAL STYLES*/
+
+  .content-wrapper {
+    max-width: 900px;
+    margin: 50px 0;
+  }
+
+  /*HERO IMAGE*/
+
+  .hero-image h1 {
+    width: 60%
+
+  }
+
+  /*FEATURES*/
+
+  .features article {
+   flex-basis: 33%;
+  }
+  /*REVIEWS*/
+  
+  .reviews h2 {
+    margin: 100px 0;
+  }
+
+  footer .content-wrapper {
+    width: 900px;
+  }
 }
 
 @media print,
