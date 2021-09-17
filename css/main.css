@@ -546,8 +546,7 @@ footer {
   /*GENERAL STYLES*/
 
   .content-wrapper {
-    max-width: 900px;
-    margin: 50px 0;
+    max-width: 960px;
   }
 
   /*HERO IMAGE*/
@@ -556,14 +555,32 @@ footer {
     width: 60%
 
   }
+  /*ASIDE*/
+
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+  aside .content-wrapper .newsletter-form, 
+  aside .content-wrapper .newsletter-content {
+    width: 30%;
+  }
 
   /*FEATURES*/
+  .features h2 {
+    width: 75%;
+  }
 
   .features article {
    flex-basis: 33%;
   }
+
   /*REVIEWS*/
-  
+
+  .reviews article div {
+    width: 40%;
+  }
+
+
   .reviews h2 {
     margin: 100px 0;
   }
@@ -571,6 +588,24 @@ footer {
   footer .content-wrapper {
     width: 900px;
   }
+
+
+/*ABOUT PAGE*/
+
+
+ .mission-content h2 {
+  width: 75%;
+}
+.mission-content {
+  flex-flow: row wrap;
+  padding: 0;
+
+}
+
+/*FAQ PAGE*/
+.faq h2{
+width: 100%;
+}
 }
 
 @media print,
