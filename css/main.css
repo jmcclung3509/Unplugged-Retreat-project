@@ -87,8 +87,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   /*--------------------GENERAL STYLES---------------------------------------*/
-
+  
     /*General Styles*/
 
   html {
@@ -118,6 +117,7 @@ textarea {
     font-size: 2.25em;
     line-height: 1.2;
     color: #e2e3ed;
+    font-weight: 500;
   
   }
 
@@ -189,6 +189,7 @@ header nav {
   width: 60%;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 1.125em;
 }
 
 .header-divider {
@@ -204,6 +205,9 @@ header nav ul {
    justify-content: space-around;
    padding: 0;
    margin: 0;
+  }
+  header nav ul li {
+    font-size: 1.125em;
   }
  
 
@@ -245,7 +249,7 @@ footer .social-icons p {
 }
 
 footer .copyright {
-margin: 50px 0;
+margin: 20px 0;
 }
 .footer-content h4 {
   margin-left: 0;
@@ -350,6 +354,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .map {
@@ -360,6 +365,7 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 
 }
 .contact-content p {
@@ -373,6 +379,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
+background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -380,12 +387,17 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-flow: row wrap;
+margin: 50px 0 0 0;
 }
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 .faq-content{
   margin-bottom: 50px;
+}
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 
