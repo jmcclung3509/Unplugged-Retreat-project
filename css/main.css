@@ -226,7 +226,10 @@ header nav ul {
    justify-content: center;
    align-items: center;
  }
-
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
 .footer-content {
   display: flex;
   justify-content: center;
@@ -243,21 +246,30 @@ footer p {
 footer h4 {
   margin-left: 50px;
 } 
-   
+.social  {
+  width: 90%;
+}
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
+
 footer .social-icons p {
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  background: #527158;
+  width: 40px;
+  height:40px;
+  border-radius:50%;
+}
+footer i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
-margin: 20px 0;
+margin: 0;
 }
 .footer-content h4 {
   margin-left: 0;
