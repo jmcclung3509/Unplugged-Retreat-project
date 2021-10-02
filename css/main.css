@@ -241,10 +241,12 @@ footer p {
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   color: #ffffff;
  }
 
 footer h4 {
   margin-left: 50px;
+  color: #ffffff;
 } 
 .social  {
   width: 90%;
@@ -263,12 +265,13 @@ footer .social-icons p {
   width: 40px;
   height:40px;
   border-radius:50%;
+  margin: 0;
 }
 footer i {
   font-size: 1.3125em;
 }
 
-footer .copyright {
+footer .copyright p{
 margin: 0;
 }
 .footer-content h4 {
@@ -325,7 +328,9 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-
+.newsletter-content h3 {
+  margin-bottom: 0;
+}
 
 /* FEATURES */
 
@@ -350,7 +355,7 @@ input[type=button] {
 
 .features article {
   padding: 40px 0;
-  width: 60%;
+  width: 55%;
 }
 
 .features p {
@@ -361,7 +366,7 @@ input[type=button] {
   font-size: 3.75em;
   padding-bottom: 35px;
 }
-.fontawesome-icon {
+.fontawesome-icon, .features-item-description {
   text-align: center;
 }
 
@@ -375,6 +380,7 @@ input[type=button] {
 }
 .reviews h2 {
   margin-bottom: 30px;
+  line-height: 1;
 }
 
 
@@ -424,7 +430,10 @@ input[type=button] {
 .contact-content p {
   margin: 0;
 }
-
+.contact-content h4 {
+  color: #ffffff;
+  margin: 16px 0;
+}
 /*------------------------FAQ Page------------------*/
 
 .faq { 
@@ -452,8 +461,12 @@ margin: 50px 0 0 0;
   margin-bottom: 50px;
 }
 .faq-content h4 {
-  line-height: 1.333;
+  line-height: 1.33;
   margin: 0;
+}
+
+.faq-content p {
+  margin-bottom: 0;
 }
 
 
@@ -589,7 +602,7 @@ margin: 50px 0 0 0;
   }
 
   header nav {
-    width: 20%;
+    width: 25%;
     justify-content: space-between;
   }
 
@@ -619,6 +632,9 @@ margin: 50px 0 0 0;
     width: 39%;
     padding: 0;
   }
+  aside h3 {
+    margin-top: 0;
+  }
 
   /* FEATURES */
   .features article {
@@ -631,7 +647,10 @@ margin: 50px 0 0 0;
   
   }
   .features .features-item-description {
-    width: 50%;
+    width: 54%;
+  }
+  .features h2 {
+    margin: 0;
   }
 
   
@@ -661,6 +680,9 @@ margin: 50px 0 0 0;
     margin-top: 0;
     width: 100%;
   }
+  .reviews .content-wrapper {
+    margin: 100px 0;
+  }
 
   /*FOOTER*/
 
@@ -683,11 +705,22 @@ margin: 50px 0 0 0;
 
   .footer-content h4 {
     margin-left: 0;
+    margin-bottom: 36px;
   }
 
   .copyright {
     width: 100%;
   }
+  footer .content-wrapper .footer-content {
+    width: 100%;
+  }
+  footer .social {
+    width: 40%;
+  }
+  footer .social-icons {
+    justify-content: space-between;
+  }
+
 
   /*ABOUT PAGE*/
 
@@ -738,9 +771,14 @@ margin: 50px 0 0 0;
   flex-direction: row;
 }
 
+footer .content-wrapper .footer-content {
+  width: 100%;
+}
+
 footer {
   margin-bottom: 0;
 }
+
 .copyright p {
   margin: 0;
 }
@@ -748,7 +786,7 @@ footer {
 /*FAQ PAGE */
 
 .faq  h2{
-  width: 70%;
+  width: 100%;
   text-align: left;
 }
 .faq-content {
@@ -761,6 +799,13 @@ footer {
   margin-top: 100px;
   align-items: flex-start;
 }
+.faq h4 {
+  font-size: .777em;
+}
+.faq-content p {
+  margin-bottom: 0;
+}
+
 
 }
 
@@ -786,6 +831,12 @@ footer {
     font-size: 1.125em;
   }
 
+  /* HEADER */
+
+  header nav {
+    width: 17%;
+  }
+
   /*HERO IMAGE*/
 
   .hero-image h1 {
@@ -794,6 +845,9 @@ footer {
   }
   .hero-image {
     height: 600px;
+  }
+  .hero-image .content-wrapper {
+    margin-top: 50px;
   }
 
   /*ASIDE*/
@@ -817,8 +871,12 @@ footer {
 
   .features article {
    flex-basis: 33%;
+   padding: 60px 0 0 0;
   }
 
+  .features .features-item-description {
+    width: 60%;
+  }
   /*REVIEWS*/
 
   .reviews article div {
@@ -860,7 +918,10 @@ footer {
 }
 .contact-content h4 {
   font-size: 1.875em;
+  color: #ffffff;
+  margin: 30px 0;
 }
+
 
 /*FAQ PAGE*/
 .faq h2{
@@ -872,7 +933,24 @@ font-size: 3em;
   font-size: 1.125em;
   line-height: 1;;
 }
+.faq .content-wrapper {
+  margin-bottom: 50px;
+}
 
+/* FOOTER */
+
+footer .social {
+  width: 25%;
+}
+footer .social-icons  {
+  justify-content: space-between;
+}
+footer h4 {
+  margin-top: 0;
+  font-size: 1.875em;
+}
+footer .content-wrapper, .footer-content {
+  width: 70%;
 }
 
 @media print,
