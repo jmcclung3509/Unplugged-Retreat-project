@@ -208,7 +208,7 @@ header nav ul {
    margin: 0;
   }
   header nav ul li {
-    font-size: 1.125em;
+    font-size: 1em;
   }
  
   header figure {
@@ -594,6 +594,7 @@ margin: 50px 0 0 0;
 
 
 
+
   /*HEADER*/
   header {
     justify-content: space-around; 
@@ -620,6 +621,9 @@ margin: 50px 0 0 0;
   }
   header figure {
     width: 32%;
+  }
+  header nav ul li {
+    font-size: 1em;
   }
 
   /* ASIDE*/
@@ -671,7 +675,7 @@ margin: 50px 0 0 0;
     width: 49%;
   }
   .reviews img {
-    width: 50%;
+    width: 48%;
   }
   .reviews figure {
     display: flex;
