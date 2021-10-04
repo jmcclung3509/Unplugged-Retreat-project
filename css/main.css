@@ -291,6 +291,7 @@ background-size: cover;
 min-height: 500px;
 }
 
+
 /* ASIDE */
 
 aside {
@@ -350,11 +351,12 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin-bottom: 0;
+  width: 90%;
 }
 
 .features article {
-  padding: 40px 0;
+  padding: 50px 0 0 0;
   width: 55%;
 }
 
@@ -368,6 +370,9 @@ input[type=button] {
 }
 .fontawesome-icon, .features-item-description {
   text-align: center;
+}
+.features .content-wrapper {
+  margin: 50px 0 60px 0;
 }
 
 /* REVIEWS */
@@ -796,7 +801,7 @@ footer {
   justify-content: space-between;
 }
 .faq .content-wrapper {
-  margin-top: 100px;
+  margin: 100px 0 50px 0;
   align-items: flex-start;
 }
 .faq h4 {
@@ -805,7 +810,9 @@ footer {
 .faq-content p {
   margin-bottom: 0;
 }
-
+ footer .content-wrapper {
+   margin-top: 50px;
+ }
 
 }
 
